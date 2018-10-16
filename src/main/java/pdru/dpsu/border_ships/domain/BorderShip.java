@@ -5,6 +5,7 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
+@Table
 public class BorderShip {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
